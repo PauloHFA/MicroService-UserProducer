@@ -1,26 +1,24 @@
 package com.ms.user.dtos;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import java.util.UUID;
 
 @Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class EmailDto {
-    @NotBlank
-    private UUID userId;
+    @NotBlank(message = "Name is mandatory")
+    private String name;
 
-    @NotBlank
-    @Email
-    private String emailTo;
+    @Email(message = "Email should be valid")
+    @NotBlank(message = "Email is mandatory")
+    private String email;
 
-    @NotBlank
-    private String subject;
-
-    @NotBlank
+    @NotBlank(message = "Text is mandatory")
     private String text;
 }
