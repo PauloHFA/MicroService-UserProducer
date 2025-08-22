@@ -23,7 +23,6 @@ public class EmailProducer {
 
     public void publishMessageEmail(UserModel userModel) {
         EmailDto emailDto = new EmailDto();
-        emailDto.setUserId(userModel.getUserId());
         emailDto.setEmail(userModel.getEmail());
         emailDto.setName("Bem-vindo ao sistema!");
         emailDto.setText("Obrigado por se cadastrar!");
