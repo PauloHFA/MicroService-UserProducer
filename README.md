@@ -32,3 +32,18 @@ agora podemos enviar as mensagens pelo meu serviço de user producer, atraves do
 
 <img width="759" height="430" alt="image" src="https://github.com/user-attachments/assets/8f7a4af9-6374-4452-afad-a7630e557cdb" />
 
+agora dentro do spring precisamos configurar este component para conseguir realizar o envio da mensagem vamos adicionar as dependencias necessarias para o uso do rabbit 	
+
+    <dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+e depois vamos criar um component com o rabbit template e vamos utilizar o metodo do rabbit template para realizar a conversão e envio da mensagem 
+
+<img width="737" height="711" alt="image" src="https://github.com/user-attachments/assets/8cf35377-5609-4de5-a1b6-e9ab471e773d" />
