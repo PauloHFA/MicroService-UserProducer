@@ -7,3 +7,7 @@ para isso nos precisamos criar uma conta na https://www.cloudamqp.com/
 
 depois de criarmos nossa conta vamos criar nossa instancia, no meu caso utilizei a litle lemur free, configuramos a região 
 <img width="1502" height="676" alt="image" src="https://github.com/user-attachments/assets/94ff8ba3-704f-43fa-9202-70e0bd8df698" />
+
+depois vamos entrar na nossa instancia para pegar nossas crendenciais para conseguirmos realizar a conexão do noss micro serviço com a instancia
+
+<img width="1714" height="471" alt="image" src="https://github.com/user-attachments/assets/609f7657-d553-4530-8960-d5da3716e32d" />
