@@ -17,3 +17,5 @@ dentro da instancia nos podemos visualizar quanto nos podemos consumir no nosso 
 <img width="1564" height="847" alt="image" src="https://github.com/user-attachments/assets/0b8209c4-3939-470b-8ac8-cb2ec71e56e4" />
 
 vamos copiar o endereço dentro da tag de spring.rabbitmq.addresses=
+
+e agora dentro da nossa instancia vamos criar esta 
