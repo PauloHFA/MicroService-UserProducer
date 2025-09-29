@@ -47,3 +47,10 @@ agora dentro do spring precisamos configurar este component para conseguir reali
 e depois vamos criar um component com o rabbit template e vamos utilizar o metodo do rabbit template para realizar a conversão e envio da mensagem 
 
 <img width="737" height="711" alt="image" src="https://github.com/user-attachments/assets/8cf35377-5609-4de5-a1b6-e9ab471e773d" />
+
+pos configurar a nosso commponent de envio nos ja podemos enviar as mensagens 
+
+<img width="713" height="541" alt="image" src="https://github.com/user-attachments/assets/3eece3f5-138a-496d-8df5-afb4a15697c7" />
+
+a mensagem fica na fila em estado de ready mas não existe nenhum consumer configurado para esta fila no momento, entao posso enviar varias mensagens para outro serviço que as mensagens vão ficar se empilhando uma sobre a outra, até o momento que o meu serviço de consumer começe a consumir estas mensagens. 
+
