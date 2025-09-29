@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
+
     final UserRepository userRepository;
     final EmailProducer userProducer;
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
