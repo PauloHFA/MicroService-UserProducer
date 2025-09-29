@@ -11,3 +11,7 @@ depois de criarmos nossa conta vamos criar nossa instancia, no meu caso utilizei
 depois vamos entrar na nossa instancia para pegar nossas crendenciais para conseguirmos realizar a conexão do noss micro serviço com a instancia
 
 <img width="1714" height="471" alt="image" src="https://github.com/user-attachments/assets/609f7657-d553-4530-8960-d5da3716e32d" />
+
+dentro da instancia nos podemos visualizar quanto nos podemos consumir no nosso plano free e podemos visualizar nossar credenciais que vamos utilizar para conectar no nosso spring, atraves da nossa application.propreites
+
+<img width="1564" height="847" alt="image" src="https://github.com/user-attachments/assets/0b8209c4-3939-470b-8ac8-cb2ec71e56e4" />
