@@ -27,3 +27,8 @@ e agora dentro da nossa instancia vamos criar uma fila, broker(explicar o que e 
 ao clicar em add queue e dar um nome para a fila ela aparecera configurada
 
 <img width="860" height="98" alt="image" src="https://github.com/user-attachments/assets/15c89db1-e1f7-4bfd-a171-cffe9e867e9a" />
+
+agora podemos enviar as mensagens pelo meu serviço de user producer, atraves do payload 
+
+<img width="759" height="430" alt="image" src="https://github.com/user-attachments/assets/8f7a4af9-6374-4452-afad-a7630e557cdb" />
+
