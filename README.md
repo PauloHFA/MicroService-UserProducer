@@ -38,11 +38,11 @@ agora dentro do spring precisamos configurar este component para conseguir reali
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+	</dependency>
     <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
-		</dependency>
+	</dependency>
 
 e depois vamos criar um component com o rabbit template e vamos utilizar o metodo do rabbit template para realizar a conversão e envio da mensagem 
 
