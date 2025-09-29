@@ -24,4 +24,6 @@ e agora dentro da nossa instancia vamos criar uma fila, broker(explicar o que e 
 
 <img width="986" height="665" alt="image" src="https://github.com/user-attachments/assets/fd0dbe7a-1473-488a-9f8a-e2510d96fbac" />
 
+ao clicar em add queue e dar um nome para a fila ela aparecera configurada
+
 <img width="860" height="98" alt="image" src="https://github.com/user-attachments/assets/15c89db1-e1f7-4bfd-a171-cffe9e867e9a" />
