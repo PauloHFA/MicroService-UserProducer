@@ -18,4 +18,6 @@ dentro da instancia nos podemos visualizar quanto nos podemos consumir no nosso 
 
 vamos copiar o endereço dentro da tag de spring.rabbitmq.addresses=
 
-e agora dentro da nossa instancia vamos criar esta 
+e agora dentro da nossa instancia vamos criar uma fila, broker(explicar o que e broker) para comunicação direta entre os seriços 
+
+<img width="959" height="116" alt="image" src="https://github.com/user-attachments/assets/04c39940-ed05-40ae-8ac2-bd7b93333c1d" />
